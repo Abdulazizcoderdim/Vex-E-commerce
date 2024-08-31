@@ -5,12 +5,7 @@ const AboutUsPage = () => {
   return (
     <div className="aboutUs">
       <div className="aboutUs__first">
-        <img
-          width={'600px'}
-          height={'380px'}
-          src="/about.jpg"
-          alt=""
-        />
+        <img width={'600px'} height={'380px'} src="/about.jpg" alt="" />
         <div className="aboutUs__text">
           <h3>About Our Shop</h3>
           <p>
@@ -34,10 +29,10 @@ const AboutUsPage = () => {
         </div>
       </div>
       <div className="aboutUs__imgs">
-        <img src="../../../public/about/awards-logo.png" alt="" />
-        <img src="../../../public/about/awards-logo.png" alt="" />
-        <img src="../../../public/about/awards-logo.png" alt="" />
-        <img src="../../../public/about/awards-logo.png" alt="" />
+        <img src="/about/awards-logo.png" alt="" />
+        <img src="/about/awards-logo.png" alt="" />
+        <img src="/about/awards-logo.png" alt="" />
+        <img src="/about/awards-logo.png" alt="" />
       </div>
       <div className="aboutUs__team">
         <h5>TEAM MEMBERS</h5>
@@ -46,7 +41,7 @@ const AboutUsPage = () => {
             <img
               width={'170px'}
               height={'170px'}
-              src="../../../public/team/team-1.jpg"
+              src="/team/team-1.jpg"
               alt=""
             />
             <span>Jonathan Andrew</span>
@@ -56,7 +51,7 @@ const AboutUsPage = () => {
             <img
               width={'170px'}
               height={'170px'}
-              src="../../../public/team/team-2.jpg"
+              src="/team/team-2.jpg"
               alt=""
             />
             <span>Adipisci Valid</span>
@@ -66,7 +61,7 @@ const AboutUsPage = () => {
             <img
               width={'170px'}
               height={'170px'}
-              src="../../../public/team/team-3.jpg"
+              src="/team/team-3.jpg"
               alt=""
             />
             <span>John Fexit</span>
@@ -76,7 +71,7 @@ const AboutUsPage = () => {
             <img
               width={'170px'}
               height={'170px'}
-              src="../../../public/team/team-1.jpg"
+              src="/team/team-1.jpg"
               alt=""
             />
             <span>John Fexid</span>
