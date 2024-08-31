@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
 import { IoIosCall, IoIosSearch } from 'react-icons/io';
 import { Link } from 'react-router-dom';
-import Logo from '/logo.png';
 import './Sidebar.css';
+import Logo from '/logo.png';
 
 const Sidebar = () => {
   const [openCart, setOpenCart] = useState(false);
@@ -99,7 +99,10 @@ const Sidebar = () => {
             <input type="text" placeholder="Search" />
           </div>
           <div className="sidebar__languages">
-            <span>en</span>
+            <section>
+              <option value="en">eng</option>
+              <option value="uzb">uzb</option>
+            </section>
           </div>
         </div>
       </header>
