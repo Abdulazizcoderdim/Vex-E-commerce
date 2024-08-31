@@ -99,10 +99,10 @@ const Sidebar = () => {
             <input type="text" placeholder="Search" />
           </div>
           <div className="sidebar__languages">
-            <section>
-              <option value="en">eng</option>
-              <option value="uzb">uzb</option>
-            </section>
+            <select name="languages">
+              <option value="English">Eng</option>
+              <option value="Uzbek">Eng</option>
+            </select>
           </div>
         </div>
       </header>
