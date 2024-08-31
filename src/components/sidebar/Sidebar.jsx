@@ -15,7 +15,7 @@ const Sidebar = () => {
           <span>
             <IoIosCall />
           </span>{' '}
-          <p>0120-12123-121123</p>
+          <p>0120-12123-121123 a</p>
         </p>
         <Link to="/" className="sidebar__logo">
           <Link to="/">
