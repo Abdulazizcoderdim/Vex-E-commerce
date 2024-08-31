@@ -37,7 +37,7 @@ const Sidebar = () => {
                   <img
                     width={'60px'}
                     height={'100px'}
-                    src="../../../public/shop/cart/cart-1.jpg"
+                    src="/cart-1.jpg"
                     alt=""
                   />
                   <div className="cart__container">
@@ -58,7 +58,7 @@ const Sidebar = () => {
                   <img
                     width={'60px'}
                     height={'100px'}
-                    src="../../../public/shop/cart/cart-2.jpg"
+                    src="/cart-2.jpg"
                     alt=""
                   />
                   <div className="cart__container">
