@@ -15,7 +15,7 @@ const Sidebar = () => {
           <span>
             <IoIosCall />
           </span>{' '}
-          <p>0120-12123-121123 a</p>
+          <p>0120-12123-121123</p>
         </p>
         <Link to="/" className="sidebar__logo">
           <Link to="/">
@@ -37,7 +37,7 @@ const Sidebar = () => {
                   <img
                     width={'60px'}
                     height={'100px'}
-                    src="/cart-1.jpg"
+                    src="/shop/cart/cart-1.jpg"
                     alt=""
                   />
                   <div className="cart__container">
@@ -58,7 +58,7 @@ const Sidebar = () => {
                   <img
                     width={'60px'}
                     height={'100px'}
-                    src="/cart-2.jpg"
+                    src="/shop/cart/cart-2.jpg"
                     alt=""
                   />
                   <div className="cart__container">
