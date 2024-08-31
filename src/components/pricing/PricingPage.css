@@ -1,0 +1,50 @@
+.pricing{
+    padding: 70px 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__container{
+    display: flex;
+    gap: 70px;
+}
+
+.pricing__modal{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pricing__top{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pricing__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pricing__modal button{
+    margin-top: 20px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    transition: all .40s ease;
+}
+
+.pricing__modal button:hover{
+    background-color: #9e9e9e;
+    border: 1px solid gray;
+    transition: all .40s ease;
+}
+
+.pricing__top span{
+    font-size: 50px;
+    font-weight: bold;
+}

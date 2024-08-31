@@ -1,0 +1,41 @@
+.address{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15%;
+    margin: 50px 0;
+}
+
+
+.address__modal{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border: 1px solid gray;
+    padding: 30px 0;
+}
+
+.address__first h5{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.address__first span{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    color: rgb(66, 66, 66);
+    font-weight: 500; 
+}
+
+.address__first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+} 
+
+
+.address__btns{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+

@@ -1,0 +1,145 @@
+.orderPage{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15%;
+    margin: 50px 0;
+}
+
+.orderPage__container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 17px;
+}
+
+.orderPage__title{
+    display: flex;
+    border-bottom: 1.6px solid gray;
+    flex-wrap: wrap;
+    color: black;
+    font-weight: 600;
+}
+
+.orderPage__title li{
+    margin-right: 140px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    padding: 0 50px 0 20px;
+
+}
+
+.orderPage__text{
+    display: flex;
+    border-bottom: 1px solid rgb(93, 92, 92);
+    justify-content: space-between;
+    padding: 0 50px 0 20px;
+}
+
+.orderPage__text li button{
+    border: none;
+    outline: none;
+    padding: 2px 8px;
+    background-color: #fff;
+    border: 1px solid gray;
+    margin-bottom: 4px;
+    transition: all .40s ease;
+}
+
+.orderPage__text li button:hover{
+    background-color: black;
+    color: #fff;
+    transition: all .40s ease;
+}
+
+.end li button:hover{
+    background-color: black;
+    color: #fff;
+    transition: all .40s ease;
+}
+
+.end li button{
+    border: none;
+    outline: none;
+    padding: 2px 8px;
+    background-color: #fff;
+    border: 1px solid gray;
+    margin-bottom: 4px;
+    transition: all .40s ease;
+}
+
+.orderPage__btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.orderPage__btn a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color:black;
+    border: 1px solid gray;
+    transition: all .30s ease;
+}
+
+.orderPage__active{
+    border-radius: 15px;
+}
+
+
+.orderPage__btn a:hover{
+    border-radius: 15px;
+    transition: all .30s ease;
+}
+
+
+.orderPage__modal{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+.premeccing{
+    background-color: blue;
+    color: #fff;
+    padding: 0 4px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.premeccing2{
+    background-color: green;
+    color: #fff;
+    padding: 0 4px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.premeccing3{
+    background-color: red;
+    color: #fff;
+    padding: 0 4px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.premeccing4{
+    background-color: rgb(134, 134, 255);
+    color: #fff;
+    padding: 0 4px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.premeccing5{
+    background-color: rgb(204, 204, 0);
+    color: #fff;
+    padding: 0 4px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}

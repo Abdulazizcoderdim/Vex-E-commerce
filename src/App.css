@@ -1,0 +1,143 @@
+:root{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+
+.li__page{
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+  
+}
+
+.collapse{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 36%;
+}
+
+.navbar-nav{
+  gap: 28px;
+}
+
+:root{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.coming{
+  background-image: url("../public/backgrounds/coming-soon-bg.jpg");
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  filter: brightness(0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming .coming__container{
+  text-align: center; 
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.coming__icons{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  color: #fff;
+
+}
+
+.coming__icons span{
+  color: #fff;
+}
+
+
+/* LOGIN PAGE*/
+
+.login{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 15% auto;
+}
+
+.login__container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  text-align: center;
+  gap: 20px;
+  width: 570px;
+  padding: 20px;
+}
+
+.login__inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login__container button{
+  width: 60px;
+  margin: 0 auto;
+}
+
+.login__inputs input{
+  border: 1px solid gray;
+  outline: none;
+  background-color: #fff;
+  color: gray;
+  padding: 15px;
+}
+
+.login__container button{
+  border: none;
+  padding: 20px -25px;
+  background-color: black;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  transition: all .40s ease;
+}
+
+.login__container button:hover{
+  background-color: #fff;
+  border: 1px solid black;
+  color: black;
+  transition: all .40s ease;
+}
+
+.login__container span a{
+  color: rgb(73, 73, 73);
+  font-weight: 500;
+}
+
+.login__container p{
+  color: rgb(70, 70, 70);
+  font-weight: 600;
+  cursor: pointer;
+}

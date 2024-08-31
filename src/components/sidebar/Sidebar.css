@@ -1,0 +1,177 @@
+
+header{
+    display: flex;
+    max-height: 106px;
+    justify-content: space-between;
+    padding: 5px ;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.sidebar__number{
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.sidebar__number p{
+    margin-top: 25px;
+}
+
+.sidebar__number span{
+    font-size: 20px;
+    color: rgb(41, 40, 40);
+    margin-top: 6px;
+}
+
+.sidebar__logo img{
+    width: 190px;
+    height: 50px; 
+}
+
+.sidebar__cart{
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+
+.sidebar__cart p{
+    color: rgb(41, 40, 40);
+    margin-top: 12px;
+    
+}
+
+.sidebar__nav{
+    display: flex;
+    gap: 20px;
+    color: gray;
+    align-items: center;
+}
+
+.sidebar__nav .span1{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sidebar__search{
+    margin: 6px 5px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.sidebar__search span{
+    font-size: 20px;
+}
+
+.sidebar__search input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: all .40s ease;
+    width: 60px;
+    font-weight: 400;
+}
+
+.sidebar__search input:focus{
+    transition: all .40s ease;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar__languages span{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.sidebar{
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.span1{
+    position: relative;
+    transition: all .40s ease
+}
+.span1:hover{
+    transform: scale(1.08);
+    transition: all .40s ease
+}
+
+
+.cart__modal{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 370px;
+    flex-direction: column;
+    margin-top: 450px;
+    background-color: #fff;
+    z-index: 1;
+    padding: 15px;
+    border-radius: 7px;
+    transition: all .50s ease;
+    box-shadow: 0 0 10px rgb(62, 62, 62);
+}
+
+
+.cart__top{
+    display: flex;
+    gap: 20px;
+}
+
+.cart__container{
+    display: flex;
+    gap: 150px;
+}
+
+.cart__text1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.line{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+
+.cartmodal__down{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.cartmodal__down-btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.cartmodal__down-btns a{
+    flex: 1;
+}
+
+.cartmodal__down-btns button{
+    flex: 1; 
+    border: 1px solid gray;
+    background-color: #fff;
+    color: black;
+    transition: all .40s ease;
+    padding: 5px;
+}
+
+.cartmodal__down-btns button:hover{
+    background-color: black;
+    color: #fff;
+    transition: all .40s ease;
+}

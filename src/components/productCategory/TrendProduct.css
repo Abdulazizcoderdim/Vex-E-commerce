@@ -1,0 +1,173 @@
+
+/* TRENDY PRODUCTS */
+
+.trendProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #f5f5f5;
+    flex-direction: column;
+}
+
+.trend__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+
+
+.trend__photos{
+    display: flex;
+    
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+
+
+.trend__photo{
+    display: flex;
+    flex-direction: column;
+    transition: all .50s ease;
+}
+
+
+
+.trend__photo span{
+    margin-top: -15px;
+    color: black;
+    font-weight: 500;
+}
+
+.trend__photo p{
+    color: gray;
+    font-weight: 460;
+}
+
+/* POSITION SECTION */
+
+
+
+.trend__photo img{
+    position: relative;
+    cursor: pointer;
+    transition: all .50s ease;
+}
+
+.mask{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.trend__icons{
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    opacity: 0;
+    margin-top: 330px;
+    margin-left: 80px;
+    transition: all .50s ease;
+}
+
+.trend__icons a{
+    color: black;
+    text-decoration: none;
+    transition: all .50s ease;
+}
+
+
+.trend__photo img:hover{
+    filter: brightness(0.5);
+    
+}
+
+.trend__icons:hover{
+    opacity: 1;
+    transition: all .50s ease;
+}
+
+.active{
+    opacity: 1;
+    transition: all .50s ease;
+}
+
+
+.trend__texts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20%;
+    margin-top: 220px;
+    flex-wrap: wrap;
+}
+
+
+.trend__input{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
+}
+
+.trend__input input{
+    border: 1px solid black;
+    outline: none;
+    padding: 12px ;
+    width: 400px;
+}
+
+.trend__input button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    padding: 0 30px;
+    transition: all .50s ease;
+}
+
+.trend__input button:hover{
+    background-color: #fff;
+    color: black;
+    transition: all .50s ease;
+    border: 1px solid black;
+}
+
+.trend__insta{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    padding: 120px 0;
+}
+
+.trend__insta h2{
+    font-weight: 350;
+    color: rgb(67, 67, 67);
+}
+
+@media (max-width: 970px) {
+    .trend__input{
+        display: flex;
+        
+    }
+    .trend__input input{
+        display: flex;
+        justify-content: center;
+    }
+    .trend__input button{
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,5 @@
+.column__container{
+    display: flex;
+    padding: 70px 15%;
+    gap: 30px;
+}

@@ -1,0 +1,149 @@
+.checkout__container{
+    display: flex;
+    padding: 70px 15%;
+    gap: 40px;
+}
+
+.checkout__left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.checkout__first{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkout__first h6{
+    color: rgb(91, 91, 91);
+    border-bottom: 1px solid rgb(83, 83, 83);
+    padding-bottom: 17px;
+}
+
+.checkout__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.checkout__inputs input{
+    border: 1px solid rgb(132, 127, 127);
+    outline: none;
+    padding: 10px; 
+}
+
+.checkout__input{
+    display: flex;
+    gap: 7px;
+
+}
+
+.checkout__input input{
+    flex: 1;
+}
+
+.checkout__two{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.checkout__two h6{
+    color: rgb(98, 94, 94);
+    border-bottom: 1px solid rgb(91, 91, 91);
+    padding-bottom: 17px;
+}
+
+.checkout__two input{
+    border: 1px solid rgb(132, 127, 127);
+    outline: none;
+    padding: 10px; 
+}
+
+.checkout__two button{
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 10px 15px;
+    color: #fff;
+    width: 150px;
+    margin-top: 20px;
+    transition: all .40s ease;
+}
+
+.checkout__two button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    transition: all .40s ease;
+}
+
+.checkout__right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkout__right h6{
+    color: rgb(91, 91, 91);
+    border-bottom: 1px solid rgb(83, 83, 83);
+    padding-bottom: 17px;
+}
+
+.checkout__right1{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid rgb(83, 83, 83);
+    padding-bottom: 17px;
+}
+
+.checkout__right-text{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+
+.checkout__right-text p{
+    color: rgb(97, 97, 97);   
+    font-weight: 600;
+}
+.checkout__right-text .right__remove{
+    color: rgb(97, 97, 97);   
+    font-weight: 600;
+}
+
+.checkout__right p span{
+     color: gray;
+     font-weight: 600;
+     cursor: pointer;
+     
+}
+
+.checkout__right p span:active{
+    color: blue;
+}
+
+.checkout__right .right__p{
+    border-bottom: 1px solid rgb(83, 83, 83);
+    padding-bottom: 17px;
+}
+
+.right__text{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.checkout__right .right__line{
+    border-bottom: 1px solid rgb(83, 83, 83);
+    padding-bottom: 12px;
+}
+
+.rigth__total{
+    display: flex;
+    justify-content: space-between;
+    grid-area: 10px;
+}

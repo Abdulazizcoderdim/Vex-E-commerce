@@ -1,0 +1,75 @@
+.contact__container{
+    margin: 70px 15%;
+    display: flex;
+    gap: 30px;
+}
+
+.contact__left{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact__left input{
+    border: 1px solid gray;
+    padding: 10px;
+    outline:  none;
+
+}
+
+.contact__textarea{
+    padding: 10px;
+    padding: 1px solid gray;
+    outline: none;
+}
+
+.contact__left .contact__btn{
+    background-color: black;
+    color: #fff;
+    transition: all .40s ease;
+}
+
+.contact__left .contact__btn:hover{
+    background-color: #fff;
+    border: 1px solid gray;
+    color: black;
+    transition: all .40s ease;
+}
+
+.contact__right{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact__right iframe{
+    margin-bottom: 20px;
+}
+
+.contact__right span{
+    color: rgb(85, 85, 85);
+}
+
+.contact__icons{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.contact__icons a{
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all .40s ease;
+}
+
+.contact__icons a:hover{
+    background-color: black;
+    color: #fff;
+    transition: all .40s ease;
+}

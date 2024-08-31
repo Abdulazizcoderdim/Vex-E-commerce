@@ -1,0 +1,69 @@
+.profileDetail{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15%;
+    margin: 50px 0;
+}
+
+.orderPage__active{
+    border-radius: 15px;
+}
+
+
+.orderPage__btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.orderPage__btn a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color:black;
+    border: 1px solid gray;
+    transition: all .30s ease;
+}
+
+.orderPage__btn a:hover{
+    border-radius: 15px;
+    transition: all .30s ease;
+}
+
+.orderPage__modal{
+    display: flex;
+    border: 1px solid gray;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.orderPage__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderPage__container ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.orderPage__li{
+    color: rgb(69, 69, 69);
+    font-weight: 700;
+}
+
+.orderPage__avatar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.orderPage__avatar img{
+    border-radius: 50%;
+}
+
+.orderPage__avatar h6{
+    color: rgb(74, 74, 74);
+}

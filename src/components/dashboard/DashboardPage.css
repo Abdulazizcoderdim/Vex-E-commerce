@@ -1,0 +1,64 @@
+.dashboardPage{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15%;
+    margin: 50px 0;
+}
+
+.orderPage__active{
+    border-radius: 15px;
+}
+
+
+.orderPage__btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.orderPage__btn a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color:black;
+    border: 1px solid gray;
+    transition: all .30s ease;
+}
+
+.orderPage__btn a:hover{
+    border-radius: 15px;
+    transition: all .30s ease;
+}
+
+
+
+.dashboard__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard__author{
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard__author img{
+    border-radius: 50%;
+}
+
+.dashboard__modal{
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.dashboard__text{
+    color: rgb(81, 81, 81);
+}
+
+.dashboard__text{
+    margin-top: 20px;
+}
+
+.dashboard__text h4{
+    color: rgb(72, 72, 72);
+}

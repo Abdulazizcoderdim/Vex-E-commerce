@@ -1,0 +1,27 @@
+.config{
+    padding: 50px 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.config__container span{
+    color: rgb(60, 60, 60);
+}
+
+.config__container button{
+    border: none;
+    outline: none;
+    padding: 10px 35px;
+    background-color: black; 
+}
+
+.config__container button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.config__container button a:active{
+    color: rgb(92, 92, 255);
+}

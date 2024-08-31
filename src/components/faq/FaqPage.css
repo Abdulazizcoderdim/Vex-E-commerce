@@ -1,0 +1,32 @@
+.faq{
+    display: flex;
+    gap: 40px;
+    padding: 80px 15%;
+}
+.faq__left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.faq__right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.faq__right h4{
+    color: rgb(65, 65, 65);
+}
+
+.faq__left h3{
+    color: rgb(65, 65, 65);
+}
+
+.faq__left p{
+    color: gray;
+}
+
+.faq__right p{
+    color: gray;
+}
